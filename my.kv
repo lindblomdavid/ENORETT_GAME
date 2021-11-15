@@ -1,0 +1,40 @@
+ScreenManage:
+    EnEttQuiz:
+
+<EnEttQuiz>
+    name: 'EnEttQuiz'
+    on_enter: print('working')
+    GridLayout:
+        cols: 1
+       
+        Label:
+            id: word
+            text: root.label_start_one
+            font_size: 30
+        
+        Label:
+            id: answer
+            text:""
+
+                
+        GridLayout:
+            cols: 2
+            Button:
+                id: Enbutton
+                text: 'En'
+                on_press:root.enClick()
+            Button:
+                id: Ettbutton
+                text: 'Ett'
+                on_press:root.ettClick()
+            
+            Label:
+                id: Score
+                text:""
+                
+              
+
+
+       
+
+          
