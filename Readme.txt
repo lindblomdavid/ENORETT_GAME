@@ -7,4 +7,4 @@ in the corresponding list and then practise/ take the quiz.
 
 The purpose of the game was to try out the kivy language/module for me as a novice self taught developer. 
 
-The game was created in early 2021, with very limited skills. 
+The game was created in early 2021, with very limited programming skills in both python and kivy. 
